@@ -1,0 +1,225 @@
+{
+  "id": "shibuya-crossing-at-night",
+  "slug": "shibuya-crossing-at-night",
+  "status": "remote_research",
+  "field_verification_required": true,
+  "destination": {
+    "country": "Japan",
+    "city": "Tokyo",
+    "district": "Dogenzaka, Shibuya City",
+    "neighborhood": "Shibuya"
+  },
+  "name": "Shibuya Crossing at night",
+  "short_description": "Frame the moving scramble, illuminated buildings and street energy from the edge of the public pedestrian area.",
+  "scenery_types": ["street", "city", "night", "people"],
+  "subject": {
+    "name": "Shibuya Scramble Crossing",
+    "coordinates": {
+      "latitude": 35.659503,
+      "longitude": 139.700544,
+      "precision": "published_landmark_coordinate"
+    }
+  },
+  "shooting_area": {
+    "name": "North edge public sidewalk near the crossing",
+    "coordinates": {
+      "latitude": 35.65967,
+      "longitude": 139.70059,
+      "precision": "approximate_area_center",
+      "radius_meters": 16
+    },
+    "exact_pin_policy": "approximate_until_field_verified",
+    "standing_instruction": "Use the public sidewalk edge only. Do not stop inside the crossing, step into vehicle lanes, block tactile paving or hold position against pedestrian flow.",
+    "verification_note": "The suggested sidewalk area is a safer editorial alternative to reproducing a camera position inside the scramble. It has not been checked on site."
+  },
+  "navigation": {
+    "simulated_start": {
+      "latitude": 35.65908,
+      "longitude": 139.70052,
+      "precision": "simulated_hachiko_exit"
+    },
+    "route": [
+      { "latitude": 35.65908, "longitude": 139.70052 },
+      { "latitude": 35.6593, "longitude": 139.70051 },
+      { "latitude": 35.65949, "longitude": 139.70054 },
+      { "latitude": 35.65967, "longitude": 139.70059 }
+    ],
+    "walking_distance_meters": 80,
+    "walking_time_minutes": 1,
+    "walking_time_status": "editorial_map_estimate_not_field_verified"
+  },
+  "shot_guide": {
+    "camera_bearing_degrees": 174,
+    "camera_bearing_label": "south",
+    "camera_bearing_short_label": "S",
+    "bearing_tolerance_degrees": 18,
+    "bearing_method": "adapted from the 174-degree heading in the reference photo metadata to an approximate sidewalk area",
+    "orientation": ["landscape", "portrait"],
+    "recommended_focal_length_full_frame_mm": {
+      "minimum": 20,
+      "maximum": 35,
+      "starting_point": 24
+    },
+    "phone_camera_suggestion": "Start with the main 1x camera and hold your position at the sidewalk edge. Crop later instead of moving into the crossing for a tighter frame.",
+    "composition_instruction": "Keep the street horizon level, place the crossing flow across the lower third and leave room above for the illuminated building faces.",
+    "composition_short_instruction": "Hold the crossing on the lower third and keep the bright buildings upright.",
+    "expected_view": "A dense pedestrian foreground with illuminated Shibuya buildings and signage behind it.",
+    "composition_overlay": {
+      "shape": "crossing",
+      "top_percent": 50,
+      "left_percent": 8,
+      "width_percent": 84,
+      "height_percent": 38
+    },
+    "accuracy": "estimated_from_reference_metadata_and_remote_research",
+    "field_checks_needed": [
+      "Confirm a non-obstructive sidewalk position.",
+      "Verify whether the 174-degree view remains practical after station-area changes.",
+      "Compare 24 mm and 35 mm framing from the sidewalk edge.",
+      "Observe pedestrian density across multiple signal cycles."
+    ]
+  },
+  "timing_and_light": {
+    "primary_recommendation": "Try approximately 10 to 35 minutes after sunset for a blue-to-dark sky and illuminated signs. Screen content and brightness change continuously.",
+    "short_label": "10-35 min after sunset",
+    "dynamic_time_rule": {
+      "event": "sunset",
+      "start_offset_minutes": 10,
+      "end_offset_minutes": 35
+    },
+    "alternate_recommendation": "A rainy evening can add reflections but also increases slip risk and umbrella congestion; this has not been field tested.",
+    "lighting_direction_note": "The shot relies primarily on surrounding artificial light rather than a specific sun angle.",
+    "subject_lighting_note": "Advertising displays change and should not be treated as a repeatable part of the composition.",
+    "accuracy": "photography_recommendation_not_field_verified"
+  },
+  "access": {
+    "address": "Dogenzakashita, Shibuya City, Tokyo, Japan",
+    "nearest_station": "Shibuya Station",
+    "line": "JR / Tokyo Metro / Tokyu / Keio",
+    "walking_time_minutes": 1,
+    "walking_time_destination": "crossing edge",
+    "walking_time_status": "editorial_map_estimate_for_adjacent_station_exit",
+    "cost_note": "GO TOKYO lists the crossing as free. Paid observation facilities are not part of this street-level guide.",
+    "published_hours": "The crossing is a working public intersection; access changes with traffic signals, events and station operations.",
+    "accessibility": {
+      "summary": "The exact step-free route from a station exit to the suggested sidewalk has not been verified.",
+      "route_verified": false,
+      "note": "Shibuya Station is complex; follow current station accessibility signs and allow extra time."
+    }
+  },
+  "conditions": {
+    "crowd_level": "very_high",
+    "crowd_note": "GO TOKYO describes very large pedestrian volumes and warns photographers not to walk into people. Density varies by time and event.",
+    "safety_level": "not_assessed",
+    "safety_note": "Remain alert to signals, vehicles, bicycles, tactile paving and fast-moving pedestrian flows. Never stop in the active crossing."
+  },
+  "rules_and_respect": {
+    "site_type": "active public intersection and station forecourt",
+    "personal_photography_status": "ordinary_personal_street_photography_context_only",
+    "tripod_status": "not_suitable_for_recommended_area_permission_unverified",
+    "commercial_photography_status": "permission_requirements_unverified",
+    "guidance": [
+      "Pedestrians, signals and transport operations take priority over photography.",
+      "Do not stop in the crossing or obstruct tactile paving and station exits.",
+      "Avoid making identifiable strangers the subject of the image without permission.",
+      "Do not use a tripod in the moving pedestrian area.",
+      "Keep bags and equipment close to your body.",
+      "Follow police, station staff and event-control instructions immediately."
+    ],
+    "editorial_rule": "ViewRoam must not encourage users to recreate the reference camera position inside the active scramble."
+  },
+  "live_conditions": [
+    {
+      "severity": "medium",
+      "title": "Use the sidewalk, not the crossing",
+      "message": "The reference image records a moment in pedestrian flow. ViewRoam's pin deliberately points to an approximate sidewalk area and does not authorize stopping in the scramble.",
+      "valid_until": null,
+      "source_id": "go-tokyo-shibuya-walk"
+    }
+  ],
+  "seasonal_notes": [
+    {
+      "season": "spring",
+      "note": "Mild evenings can bring dense visitor traffic; wait through several signal cycles."
+    },
+    {
+      "season": "summer",
+      "note": "Blue hour is later and heat can increase fatigue in crowded conditions."
+    },
+    {
+      "season": "autumn",
+      "note": "Clear evenings can produce stronger building contrast and color."
+    },
+    {
+      "season": "winter",
+      "note": "Earlier darkness makes the night composition easier, while holiday periods can add exceptional crowding."
+    }
+  ],
+  "reference_photo": {
+    "title": "Shibuya crossing at night, Tokyo, Japan.jpg",
+    "creator": "Joli Rumi",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Shibuya_crossing_at_night,_Tokyo,_Japan.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Shibuya_crossing_at_night%2C_Tokyo%2C_Japan.jpg",
+    "local_path": "/assets/shibuya-crossing-night.jpg",
+    "alt_text": "A dense crowd crossing beneath illuminated buildings in Shibuya at night",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "required_attribution": "Shibuya crossing at night, Tokyo, Japan by Joli Rumi, CC BY-SA 4.0",
+    "captured_at": "2025-11-01",
+    "metadata_focal_length_mm": null,
+    "usage_note": "A licensed street-level reference with a recorded 174-degree heading. The visual advertising and crowd pattern are not repeatable."
+  },
+  "quality": {
+    "editorial_confidence": "medium",
+    "coordinate_confidence": "medium",
+    "bearing_confidence": "medium",
+    "access_confidence": "high",
+    "rules_confidence": "medium_low",
+    "current_view_confidence": "medium_low_until_field_verified",
+    "last_researched_at": "2026-07-22",
+    "field_verified_at": null,
+    "reviewer": null
+  },
+  "sources": [
+    {
+      "id": "go-tokyo-shibuya-crossing",
+      "title": "Shibuya Scramble Crossing - GO TOKYO",
+      "url": "https://www.gotokyo.org/en/spot/78/index.html",
+      "supports": [
+        "official attraction identity",
+        "station access",
+        "free listing",
+        "street-level context"
+      ]
+    },
+    {
+      "id": "go-tokyo-shibuya-walk",
+      "title": "Explore around Shibuya - GO TOKYO",
+      "url": "https://www.gotokyo.org/en/story/walks-and-tours/shibuya/index.html",
+      "supports": [
+        "crossing safety warning",
+        "station and pedestrian context",
+        "photography viewpoints"
+      ]
+    },
+    {
+      "id": "wikidata-shibuya-crossing",
+      "title": "Shibuya scramble crossing - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q21083961",
+      "supports": ["published crossing coordinate"]
+    },
+    {
+      "id": "commons-shibuya-photo",
+      "title": "Shibuya crossing at night, Tokyo, Japan - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Shibuya_crossing_at_night,_Tokyo,_Japan.jpg",
+      "supports": [
+        "licensed reference photograph",
+        "creator",
+        "capture date",
+        "camera coordinate",
+        "174-degree heading",
+        "CC BY-SA 4.0 license"
+      ]
+    }
+  ]
+}

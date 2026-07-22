@@ -1,0 +1,245 @@
+{
+  "id": "tokyo-tower-from-zojoji",
+  "slug": "tokyo-tower-from-zojoji",
+  "status": "remote_research",
+  "field_verification_required": true,
+  "destination": {
+    "country": "Japan",
+    "city": "Tokyo",
+    "district": "Shibakoen, Minato City",
+    "neighborhood": "Shibakoen"
+  },
+  "name": "Tokyo Tower from Zojo-ji",
+  "short_description": "Frame Tokyo Tower with Zojo-ji's historic temple architecture for a distinctive old-and-new Tokyo composition.",
+  "scenery_types": ["architecture", "temple", "city landmark", "blue hour"],
+  "subject": {
+    "name": "Tokyo Tower",
+    "coordinates": {
+      "latitude": 35.658611,
+      "longitude": 139.745556,
+      "precision": "landmark"
+    }
+  },
+  "shooting_area": {
+    "name": "Zojo-ji main temple courtyard",
+    "coordinates": {
+      "latitude": 35.657481,
+      "longitude": 139.748381,
+      "precision": "approximate_area_center",
+      "radius_meters": 35
+    },
+    "exact_pin_policy": "approximate_until_field_verified",
+    "standing_instruction": "Remain in the open public courtyard and adjust within the marked area until the main hall and Tokyo Tower separate cleanly. Do not stand on steps, prayer approaches, planted areas, or active pedestrian routes.",
+    "verification_note": "The area center uses the published Zojo-ji coordinate, not a survey-grade camera position. A local field check is required before ViewRoam presents turn-by-turn positioning."
+  },
+  "navigation": {
+    "simulated_start": {
+      "latitude": 35.65652,
+      "longitude": 139.74908,
+      "precision": "simulated_start"
+    },
+    "route": [
+      { "latitude": 35.65652, "longitude": 139.74908 },
+      { "latitude": 35.65683, "longitude": 139.74876 },
+      { "latitude": 35.65707, "longitude": 139.74862 },
+      { "latitude": 35.657481, "longitude": 139.748381 }
+    ],
+    "walking_distance_meters": 120,
+    "walking_time_minutes": 3,
+    "walking_time_status": "official_destination_time_plus_simulated_route"
+  },
+  "shot_guide": {
+    "camera_bearing_degrees": 296,
+    "camera_bearing_label": "west-northwest",
+    "camera_bearing_short_label": "WNW",
+    "bearing_tolerance_degrees": 15,
+    "bearing_method": "calculated from the approximate Zojo-ji area center to the published Tokyo Tower coordinate",
+    "orientation": ["portrait", "landscape"],
+    "recommended_focal_length_full_frame_mm": {
+      "minimum": 24,
+      "maximum": 35,
+      "starting_point": 35
+    },
+    "phone_camera_suggestion": "Start with the main 1x camera. Step back within the permitted courtyard instead of switching immediately to an ultra-wide lens, which can make the tower appear smaller.",
+    "composition_instruction": "Use the temple roof and main hall as the lower visual anchor, then position Tokyo Tower rising behind and slightly to one side. Keep vertical lines straight and leave space above the tower tip.",
+    "composition_short_instruction": "Align the temple roof, then place Tokyo Tower just left of center.",
+    "expected_view": "Historic temple rooflines in the foreground with Tokyo Tower rising behind them.",
+    "composition_overlay": {
+      "shape": "tower",
+      "top_percent": 5,
+      "left_percent": 55,
+      "width_percent": 25,
+      "height_percent": 58
+    },
+    "accuracy": "estimated",
+    "field_checks_needed": [
+      "Confirm the safest standing point and unobstructed route.",
+      "Measure the final compass bearing from that point.",
+      "Capture comparison frames at 24 mm, 28 mm and 35 mm full-frame equivalent.",
+      "Confirm whether current restoration barriers or scaffolding enter the frame."
+    ]
+  },
+  "timing_and_light": {
+    "primary_recommendation": "Arrive before sunset and photograph from approximately 15 to 35 minutes after local sunset, while the sky retains blue-hour color and Tokyo Tower's illumination is visible.",
+    "short_label": "15-35 min after sunset",
+    "dynamic_time_rule": {
+      "event": "sunset",
+      "start_offset_minutes": 15,
+      "end_offset_minutes": 35
+    },
+    "alternate_recommendation": "Early morning can provide fewer visitors and cleaner front light from behind the photographer, but the tower illumination will usually not be the visual focus.",
+    "lighting_direction_note": "The recommended camera direction is west-northwest, so sunset and blue-hour sky color generally appear in or near the photographed direction. Exact sun position changes by season.",
+    "subject_lighting_note": "Tokyo Tower lighting designs and schedules vary. Check the official Tokyo Tower site on the visit date.",
+    "tower_lighting_note": "Tokyo Tower lighting designs and schedules vary. Check the official Tokyo Tower site on the visit date.",
+    "accuracy": "photography_recommendation_not_field_verified"
+  },
+  "access": {
+    "address": "4-7-35 Shibakoen, Minato City, Tokyo 105-0011, Japan",
+    "nearest_station": "Onarimon Station",
+    "line": "Toei Mita Line",
+    "walking_time_minutes": 3,
+    "walking_time_destination": "Zojo-ji",
+    "walking_time_status": "published_by_go_tokyo",
+    "cost_note": "The outdoor temple view does not require a Tokyo Tower observation-deck ticket. Confirm current access, hours and any separately ticketed temple facilities before visiting.",
+    "published_hours": "GO TOKYO lists 9:00-17:00 and notes that hours can vary; the official English temple page does not clearly state nighttime courtyard access.",
+    "published_temple_hours": "GO TOKYO lists 9:00-17:00 and notes that hours can vary; the official English temple page does not clearly state nighttime courtyard access.",
+    "accessibility": {
+      "summary": "GO TOKYO lists disabled parking, automatic doors, a wheelchair ramp, an elevator and wheelchair loans for the facility.",
+      "route_verified": false,
+      "note": "The exact step-free route to the recommended shooting area still needs field verification."
+    }
+  },
+  "conditions": {
+    "crowd_level": "moderate",
+    "crowd_note": "Expect more visitors on weekends, holidays, during ceremonies and around seasonal events. This rating is an editorial estimate and needs observation by time block.",
+    "safety_level": "not_assessed",
+    "safety_note": "Use the open courtyard, watch for low-light trip hazards, keep equipment close, and never step backward into a road or pedestrian route while composing."
+  },
+  "rules_and_respect": {
+    "site_type": "active Buddhist temple",
+    "personal_photography_status": "not_clearly_published_in_official_english_sources",
+    "tripod_status": "unverified",
+    "commercial_photography_status": "permission_requirements_not_verified",
+    "guidance": [
+      "Worship and ceremonies take priority over photography.",
+      "Follow every posted sign and staff instruction, including temporary restrictions.",
+      "Do not photograph worshippers as identifiable subjects without permission.",
+      "Do not block the prayer approach, entrances, steps or pedestrian flow.",
+      "Avoid tripods unless current on-site rules clearly permit them and they can be used without obstruction.",
+      "Do not cross ropes, barriers or planted areas to reproduce a composition.",
+      "Keep voices and screen brightness low during evening visits."
+    ],
+    "editorial_rule": "ViewRoam must not display tripod use or commercial-shoot permission as confirmed until Zojo-ji verifies those policies."
+  },
+  "live_conditions": [
+    {
+      "severity": "high",
+      "title": "Sangedatsumon gate restoration",
+      "message": "GO TOKYO reports that Zojo-ji's Sangedatsumon gate is under conservation and repair, with completion scheduled for November 2032. Access routes and compositions near the gate may differ from older photographs.",
+      "valid_until": "2032-11-30",
+      "source_id": "go-tokyo-zojoji"
+    }
+  ],
+  "seasonal_notes": [
+    {
+      "season": "spring",
+      "note": "Cherry blossoms can add foreground interest, but seasonal crowds and temporary event controls may reduce usable space."
+    },
+    {
+      "season": "summer",
+      "note": "Blue hour occurs later; allow for heat, humidity and possible haze."
+    },
+    {
+      "season": "autumn",
+      "note": "Clearer air can improve tower detail; verify event schedules and restoration access."
+    },
+    {
+      "season": "winter",
+      "note": "Earlier sunset makes the blue-hour shot easier to combine with an evening itinerary; bring stabilization that does not obstruct others."
+    }
+  ],
+  "reference_photo": {
+    "title": "20100730 Tokyo Zojo-ji and Tokyo Tower 7108.jpg",
+    "creator": "Jakub Hałun",
+    "source_page": "https://commons.wikimedia.org/wiki/File:20100730_Tokyo_Zojo-ji_and_Tokyo_Tower_7108.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/20100730_Tokyo_Zojo-ji_and_Tokyo_Tower_7108.jpg",
+    "local_path": "/assets/tokyo-tower-zojoji-blue-hour.jpg",
+    "alt_text": "Tokyo Tower rising behind the buildings of Zojo-ji during blue hour",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "required_attribution": "Zōjō-ji Temple and Tokyo Tower by Jakub Hałun, CC BY-SA 4.0",
+    "captured_at": "2010-07-30",
+    "metadata_focal_length_mm": 20,
+    "usage_note": "Licensed blue-hour composition reference. The photograph shows event conditions, predates current restoration work and must not be presented as a guaranteed current view."
+  },
+  "quality": {
+    "editorial_confidence": "medium",
+    "coordinate_confidence": "medium",
+    "bearing_confidence": "medium_low",
+    "access_confidence": "high",
+    "rules_confidence": "low",
+    "current_view_confidence": "low_until_field_verified",
+    "last_researched_at": "2026-07-22",
+    "field_verified_at": null,
+    "reviewer": null
+  },
+  "sources": [
+    {
+      "id": "zojoji-official",
+      "title": "Zojo-ji official English site",
+      "url": "https://www.zojoji.or.jp/en/index.html",
+      "supports": [
+        "official address",
+        "active temple identity",
+        "contact information"
+      ]
+    },
+    {
+      "id": "go-tokyo-zojoji",
+      "title": "Zojoji Temple — GO TOKYO Official Tokyo Travel Guide",
+      "url": "https://www.gotokyo.org/en/spot/47/index.html",
+      "supports": [
+        "address",
+        "Onarimon access and walking time",
+        "published hours",
+        "accessibility facilities",
+        "Sangedatsumon restoration through November 2032"
+      ]
+    },
+    {
+      "id": "tokyo-tower-access",
+      "title": "Tokyo Tower official access guide",
+      "url": "https://en.tokyotower.co.jp/access/",
+      "supports": ["nearby transit options", "area walking context"]
+    },
+    {
+      "id": "tokyo-tower-official",
+      "title": "Tokyo Tower official site",
+      "url": "https://en.tokyotower.co.jp/",
+      "supports": ["current facility and lighting information"]
+    },
+    {
+      "id": "wikidata-zojoji",
+      "title": "Zojo-ji Temple — Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q249139",
+      "supports": ["approximate temple coordinates"]
+    },
+    {
+      "id": "wikidata-tokyo-tower",
+      "title": "Tokyo Tower — Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q183536",
+      "supports": ["landmark coordinates"]
+    },
+    {
+      "id": "commons-reference-photo",
+      "title": "20100730 Tokyo Zojo-ji and Tokyo Tower 7108.jpg — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:20100730_Tokyo_Zojo-ji_and_Tokyo_Tower_7108.jpg",
+      "supports": [
+        "licensed reference photograph",
+        "creator attribution",
+        "license",
+        "20 mm EXIF focal length"
+      ]
+    }
+  ]
+}

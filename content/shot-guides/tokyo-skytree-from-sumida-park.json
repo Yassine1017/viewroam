@@ -1,0 +1,222 @@
+{
+  "id": "tokyo-skytree-from-sumida-park",
+  "slug": "tokyo-skytree-from-sumida-park",
+  "status": "remote_research",
+  "field_verification_required": true,
+  "destination": {
+    "country": "Japan",
+    "city": "Tokyo",
+    "district": "Asakusa, Taito City",
+    "neighborhood": "Sumida Park"
+  },
+  "name": "Tokyo Skytree from Sumida Park",
+  "short_description": "Use the riverside promenade as a clean foreground for a vertical view of Tokyo Skytree across eastern Tokyo.",
+  "scenery_types": ["waterfront", "city landmark", "architecture", "skyline"],
+  "subject": {
+    "name": "Tokyo Skytree",
+    "coordinates": {
+      "latitude": 35.710056,
+      "longitude": 139.8107,
+      "precision": "published_landmark_coordinate"
+    }
+  },
+  "shooting_area": {
+    "name": "Sumida Park riverside promenade",
+    "coordinates": {
+      "latitude": 35.712644,
+      "longitude": 139.800369,
+      "precision": "reference_photo_coordinate_approximate_area",
+      "radius_meters": 35
+    },
+    "exact_pin_policy": "approximate_until_field_verified",
+    "standing_instruction": "Remain on the public riverside promenade. Keep the path, railings, benches and emergency access clear, and do not climb or lean equipment over barriers.",
+    "verification_note": "The area is based on the reference photo's embedded coordinate and official Sumida Park visitor information. It has not been field checked."
+  },
+  "navigation": {
+    "simulated_start": {
+      "latitude": 35.71155,
+      "longitude": 139.79865,
+      "precision": "simulated_asakusa_station_route"
+    },
+    "route": [
+      { "latitude": 35.71155, "longitude": 139.79865 },
+      { "latitude": 35.71186, "longitude": 139.79912 },
+      { "latitude": 35.71215, "longitude": 139.79965 },
+      { "latitude": 35.71242, "longitude": 139.80005 },
+      { "latitude": 35.712644, "longitude": 139.800369 }
+    ],
+    "walking_distance_meters": 420,
+    "walking_time_minutes": 5,
+    "walking_time_status": "official_destination_time_with_simulated_final_route"
+  },
+  "shot_guide": {
+    "camera_bearing_degrees": 109,
+    "camera_bearing_label": "east-southeast",
+    "camera_bearing_short_label": "ESE",
+    "bearing_tolerance_degrees": 12,
+    "bearing_method": "rounded from the 108.6-degree image direction embedded in the reference photo metadata",
+    "orientation": ["portrait", "landscape"],
+    "recommended_focal_length_full_frame_mm": {
+      "minimum": 28,
+      "maximum": 50,
+      "starting_point": 37
+    },
+    "phone_camera_suggestion": "Start with the main 1x camera. Use a modest crop or 2x lens only after confirming the tower remains sharp and the riverside context is still visible.",
+    "composition_instruction": "Keep the Skytree vertical, use the promenade and nearby river edge as leading context, and leave breathing room above the antenna.",
+    "composition_short_instruction": "Keep Skytree vertical and leave clear sky above the antenna.",
+    "expected_view": "Tokyo Skytree rising beyond the Sumida riverside from the Asakusa side.",
+    "composition_overlay": {
+      "shape": "tower",
+      "top_percent": 4,
+      "left_percent": 45,
+      "width_percent": 22,
+      "height_percent": 76
+    },
+    "accuracy": "reference_metadata_not_field_verified",
+    "field_checks_needed": [
+      "Confirm the coordinate falls on an unobstructed public path.",
+      "Compare 28 mm, 37 mm and 50 mm framing.",
+      "Verify the final bearing from the practical standing position.",
+      "Check whether trees, river works or seasonal events obstruct the view."
+    ]
+  },
+  "timing_and_light": {
+    "primary_recommendation": "For a daylight match, try approximately 60 to 120 minutes before sunset when the tower can retain detail against the sky. Exact direction and color vary by season.",
+    "short_label": "60-120 min before sunset",
+    "dynamic_time_rule": {
+      "event": "sunset",
+      "start_offset_minutes": -120,
+      "end_offset_minutes": -60
+    },
+    "alternate_recommendation": "Blue hour can add Skytree illumination, but the lighting design and start time vary by date.",
+    "lighting_direction_note": "The camera faces east-southeast. Late-afternoon light arrives from behind and to the right in many seasons, but the exact angle changes through the year.",
+    "subject_lighting_note": "Tokyo Skytree publishes a changing lighting calendar. Check the official schedule on the visit date for an evening version.",
+    "accuracy": "photography_recommendation_not_field_verified"
+  },
+  "access": {
+    "address": "7-1 Asakusa and surrounding riverside, Taito City, Tokyo, Japan",
+    "nearest_station": "Asakusa Station",
+    "line": "Tokyo Metro Ginza Line / Tobu Isesaki Line / Tsukuba Express",
+    "walking_time_minutes": 5,
+    "walking_time_destination": "Sumida Park",
+    "walking_time_status": "published_by_go_tokyo",
+    "cost_note": "No admission charge is published for this public park composition.",
+    "published_hours": "GO TOKYO describes the riverside park but does not publish a closing time on the reviewed page.",
+    "accessibility": {
+      "summary": "The exact step-free route to the selected riverside area has not been verified.",
+      "route_verified": false,
+      "note": "Use current station and park accessibility information and follow riverside closures."
+    }
+  },
+  "conditions": {
+    "crowd_level": "moderate",
+    "crowd_note": "GO TOKYO notes particularly heavy use during cherry blossom season and major riverside events. This general rating is an editorial estimate.",
+    "safety_level": "not_assessed",
+    "safety_note": "Stay behind riverside barriers, keep the shared path clear and avoid stepping backward toward bicycles or path edges."
+  },
+  "rules_and_respect": {
+    "site_type": "public riverside park and shared promenade",
+    "personal_photography_status": "ordinary_personal_park_photography_context_only",
+    "tripod_status": "unverified",
+    "commercial_photography_status": "permission_requirements_unverified",
+    "guidance": [
+      "Keep the promenade and river access clear.",
+      "Follow current park signs, closures and event controls.",
+      "Do not place equipment beyond railings or in planted areas.",
+      "Avoid photographing identifiable park users without permission.",
+      "Do not assume tripod permission; use one only if current rules permit and space is clear.",
+      "Pack out all waste and avoid bright lights near other visitors."
+    ],
+    "editorial_rule": "ViewRoam must not present tripod or commercial-shoot permission as confirmed."
+  },
+  "live_conditions": [
+    {
+      "severity": "info",
+      "title": "Skytree lighting changes by date",
+      "message": "The target reference is a daylight frame. For an illuminated version, check the official Tokyo Skytree lighting calendar on the visit date.",
+      "valid_until": null,
+      "source_id": "skytree-lighting"
+    }
+  ],
+  "seasonal_notes": [
+    {
+      "season": "spring",
+      "note": "Cherry blossoms add foreground color but GO TOKYO reports substantial seasonal crowding."
+    },
+    {
+      "season": "summer",
+      "note": "Expect later light, humidity, haze and riverside events."
+    },
+    {
+      "season": "autumn",
+      "note": "Clearer air can strengthen tower detail and sky separation."
+    },
+    {
+      "season": "winter",
+      "note": "Low humidity and earlier sunset can make both daylight and blue-hour versions practical."
+    }
+  ],
+  "reference_photo": {
+    "title": "Tokyo Skytree 2023.jpg",
+    "creator": "Akonnchiroll",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2023.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Tokyo_Skytree_2023.jpg",
+    "local_path": "/assets/tokyo-skytree-sumida-park.jpg",
+    "alt_text": "Tokyo Skytree rising into a clear sky from the Asakusa side of the Sumida River",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "required_attribution": "Tokyo Skytree 2023 by Akonnchiroll, CC0 1.0",
+    "captured_at": "2023-11-04",
+    "metadata_focal_length_mm": 37,
+    "usage_note": "A public-domain reference with a recorded camera coordinate, 108.6-degree heading and 37 mm equivalent focal length. It does not prove current access."
+  },
+  "quality": {
+    "editorial_confidence": "medium_high",
+    "coordinate_confidence": "high_for_reference_metadata",
+    "bearing_confidence": "high_for_reference_metadata",
+    "access_confidence": "high_for_park_general_low_for_exact_route",
+    "rules_confidence": "low",
+    "current_view_confidence": "medium_until_field_verified",
+    "last_researched_at": "2026-07-22",
+    "field_verified_at": null,
+    "reviewer": null
+  },
+  "sources": [
+    {
+      "id": "go-tokyo-sumida-park",
+      "title": "Sumida Park, Taito City - GO TOKYO",
+      "url": "https://www.gotokyo.org/en/spot/506/index.html",
+      "supports": [
+        "official park identity",
+        "Skytree views",
+        "Asakusa Station five-minute access",
+        "seasonal crowd context"
+      ]
+    },
+    {
+      "id": "skytree-lighting",
+      "title": "Tokyo Skytree official lighting information",
+      "url": "https://www.tokyo-skytree.jp/enjoy/lighting/",
+      "supports": ["changing Skytree lighting schedule and designs"]
+    },
+    {
+      "id": "wikidata-skytree",
+      "title": "Tokyo Skytree - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q57965",
+      "supports": ["published landmark coordinate"]
+    },
+    {
+      "id": "commons-skytree-photo",
+      "title": "Tokyo Skytree 2023 - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2023.jpg",
+      "supports": [
+        "CC0 reference photograph",
+        "creator",
+        "capture date",
+        "camera coordinate",
+        "108.6-degree heading",
+        "37 mm equivalent focal length"
+      ]
+    }
+  ]
+}

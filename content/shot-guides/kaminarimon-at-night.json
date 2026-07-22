@@ -1,0 +1,218 @@
+{
+  "id": "kaminarimon-at-night",
+  "slug": "kaminarimon-at-night",
+  "status": "remote_research",
+  "field_verification_required": true,
+  "destination": {
+    "country": "Japan",
+    "city": "Tokyo",
+    "district": "Asakusa, Taito City",
+    "neighborhood": "Asakusa"
+  },
+  "name": "Kaminarimon after dark",
+  "short_description": "Photograph Senso-ji's Thunder Gate and giant lantern from the public approach after the evening lights come on.",
+  "scenery_types": ["temple", "architecture", "night", "street"],
+  "subject": {
+    "name": "Kaminarimon Gate",
+    "coordinates": {
+      "latitude": 35.71112,
+      "longitude": 139.79637,
+      "precision": "landmark_approximate"
+    }
+  },
+  "shooting_area": {
+    "name": "Public approach south of Kaminarimon",
+    "coordinates": {
+      "latitude": 35.71093,
+      "longitude": 139.79639,
+      "precision": "approximate_area_center",
+      "radius_meters": 18
+    },
+    "exact_pin_policy": "approximate_until_field_verified",
+    "standing_instruction": "Stay on the public pedestrian approach south of the gate. Keep clear of the road, gate threshold, worshippers, queues and moving foot traffic.",
+    "verification_note": "The area is estimated from public map context and the reference composition. It has not been checked on site."
+  },
+  "navigation": {
+    "simulated_start": {
+      "latitude": 35.71045,
+      "longitude": 139.79749,
+      "precision": "simulated_station_exit"
+    },
+    "route": [
+      { "latitude": 35.71045, "longitude": 139.79749 },
+      { "latitude": 35.71054, "longitude": 139.79708 },
+      { "latitude": 35.71072, "longitude": 139.79664 },
+      { "latitude": 35.71093, "longitude": 139.79639 }
+    ],
+    "walking_distance_meters": 260,
+    "walking_time_minutes": 4,
+    "walking_time_status": "editorial_map_estimate_not_field_verified"
+  },
+  "shot_guide": {
+    "camera_bearing_degrees": 355,
+    "camera_bearing_label": "north",
+    "camera_bearing_short_label": "N",
+    "bearing_tolerance_degrees": 12,
+    "bearing_method": "calculated from the approximate public approach to the landmark coordinate",
+    "orientation": ["landscape", "portrait"],
+    "recommended_focal_length_full_frame_mm": {
+      "minimum": 24,
+      "maximum": 35,
+      "starting_point": 28
+    },
+    "phone_camera_suggestion": "Start with the main 1x camera. Move only within the public approach and wait for a natural gap rather than backing into the road.",
+    "composition_instruction": "Center the lantern, keep the roofline level and include enough of both gate pillars to show the full entrance without cutting into pedestrian flow.",
+    "composition_short_instruction": "Center the lantern and keep both red gate pillars balanced.",
+    "expected_view": "The illuminated red gate and lantern filling the frame from the public approach.",
+    "composition_overlay": {
+      "shape": "gate",
+      "top_percent": 17,
+      "left_percent": 11,
+      "width_percent": 78,
+      "height_percent": 62
+    },
+    "accuracy": "estimated_from_remote_research",
+    "field_checks_needed": [
+      "Confirm the practical standing area without blocking pedestrians.",
+      "Measure the final bearing and focal length.",
+      "Confirm current lighting and photography signs.",
+      "Check whether temporary queues or event controls change the approach."
+    ]
+  },
+  "timing_and_light": {
+    "primary_recommendation": "Try blue hour into early evening, when the gate lighting can separate the red structure from the sky. Lighting timing is not confirmed.",
+    "short_label": "Blue hour to early evening",
+    "dynamic_time_rule": {
+      "event": "sunset",
+      "start_offset_minutes": 10,
+      "end_offset_minutes": 45
+    },
+    "alternate_recommendation": "Early morning may reduce pedestrian density, but the illuminated-night appearance will be different.",
+    "lighting_direction_note": "The camera faces almost north, so the sky behind the gate is indirect sunset light rather than a direct sunset view.",
+    "subject_lighting_note": "No current official English lighting schedule was found for Kaminarimon. Treat illumination as variable.",
+    "accuracy": "photography_recommendation_not_field_verified"
+  },
+  "access": {
+    "address": "2-3-1 Asakusa, Taito City, Tokyo 111-0032, Japan",
+    "nearest_station": "Asakusa Station",
+    "line": "Tokyo Metro Ginza Line / Toei Asakusa Line / Tobu Skytree Line",
+    "walking_time_minutes": 4,
+    "walking_time_destination": "Kaminarimon public approach",
+    "walking_time_status": "editorial_map_estimate_not_field_verified",
+    "cost_note": "No fee is presented for the public gate approach. Confirm any separately ticketed facilities before visiting.",
+    "published_hours": "The official English Senso-ji page identifies the site and address but does not clearly publish hours for this outdoor composition.",
+    "accessibility": {
+      "summary": "A step-free route to the exact recommended area has not been confirmed.",
+      "route_verified": false,
+      "note": "Use current station and on-site accessibility information."
+    }
+  },
+  "conditions": {
+    "crowd_level": "high",
+    "crowd_note": "Senso-ji is a major place of worship and visitor destination. Crowd density varies strongly by event and time; this rating is an editorial estimate.",
+    "safety_level": "not_assessed",
+    "safety_note": "Do not step into Kaminarimon-dori, walk backward into others or stop in the gate threshold while composing."
+  },
+  "rules_and_respect": {
+    "site_type": "active Buddhist temple entrance and public approach",
+    "personal_photography_status": "not_clearly_published_in_official_english_sources",
+    "tripod_status": "unverified",
+    "commercial_photography_status": "unverified",
+    "guidance": [
+      "Worship and pedestrian movement take priority over photography.",
+      "Follow every posted sign and staff instruction.",
+      "Do not photograph identifiable worshippers without permission.",
+      "Do not block the gate threshold, queues, shops or the public road.",
+      "Avoid tripods unless current rules clearly permit them and they do not obstruct anyone.",
+      "Keep voices, flashes and screen brightness restrained at night."
+    ],
+    "editorial_rule": "ViewRoam must not state that tripods or commercial shoots are permitted without current site confirmation."
+  },
+  "live_conditions": [
+    {
+      "severity": "info",
+      "title": "Photography rules need an on-site check",
+      "message": "The official English sources reviewed do not publish a complete photography or tripod policy. Follow current signs and staff instructions.",
+      "valid_until": null,
+      "source_id": "sensoji-official"
+    }
+  ],
+  "seasonal_notes": [
+    {
+      "season": "spring",
+      "note": "Seasonal events can significantly increase crowding and change pedestrian controls."
+    },
+    {
+      "season": "summer",
+      "note": "Blue hour is later; allow for heat, humidity and evening events."
+    },
+    {
+      "season": "autumn",
+      "note": "Clearer evenings may improve color and architectural detail."
+    },
+    {
+      "season": "winter",
+      "note": "Earlier darkness can make the illuminated composition easier to include in an evening route."
+    }
+  ],
+  "reference_photo": {
+    "title": "Kaminari-mon Gate, Senso-ji Temple, Asakusa (53416860453).jpg",
+    "creator": "Stephen Kelly",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kaminari-mon_Gate,_Sens%C5%8D-ji_Temple,_Asakusa_(53416860453).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Kaminari-mon_Gate%2C_Sens%C5%8D-ji_Temple%2C_Asakusa_%2853416860453%29.jpg",
+    "local_path": "/assets/kaminarimon-night.jpg",
+    "alt_text": "The illuminated red Kaminarimon gate and its large lantern at night",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "required_attribution": "Kaminari-mon Gate, Senso-ji Temple, Asakusa by Stephen Kelly, CC BY 2.0",
+    "captured_at": "2023-10-20",
+    "metadata_focal_length_mm": null,
+    "usage_note": "A licensed night reference. It does not prove current lighting, access or crowd conditions."
+  },
+  "quality": {
+    "editorial_confidence": "medium",
+    "coordinate_confidence": "medium_low",
+    "bearing_confidence": "low",
+    "access_confidence": "medium",
+    "rules_confidence": "low",
+    "current_view_confidence": "low_until_field_verified",
+    "last_researched_at": "2026-07-22",
+    "field_verified_at": null,
+    "reviewer": null
+  },
+  "sources": [
+    {
+      "id": "sensoji-official",
+      "title": "Asakusa Kannon Senso-ji official English site",
+      "url": "https://www.senso-ji.jp/english/",
+      "supports": ["official address", "active Buddhist temple identity"]
+    },
+    {
+      "id": "go-tokyo-asakusa",
+      "title": "A guide to Asakusa - GO TOKYO",
+      "url": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/",
+      "supports": [
+        "Asakusa transit lines",
+        "Kaminarimon as the Senso-ji entrance",
+        "visitor context"
+      ]
+    },
+    {
+      "id": "go-tokyo-customs",
+      "title": "Customs and Manners - GO TOKYO",
+      "url": "https://www.gotokyo.org/en/plan/customs-manners/index.html",
+      "supports": ["general respectful temple behavior"]
+    },
+    {
+      "id": "commons-kaminarimon-photo",
+      "title": "Kaminari-mon Gate, Senso-ji Temple, Asakusa - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Kaminari-mon_Gate,_Sens%C5%8D-ji_Temple,_Asakusa_(53416860453).jpg",
+      "supports": [
+        "licensed reference photograph",
+        "creator",
+        "capture date",
+        "CC BY 2.0 license"
+      ]
+    }
+  ]
+}

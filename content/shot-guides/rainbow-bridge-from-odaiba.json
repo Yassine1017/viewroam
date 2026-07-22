@@ -1,0 +1,229 @@
+{
+  "id": "rainbow-bridge-from-odaiba",
+  "slug": "rainbow-bridge-from-odaiba",
+  "status": "remote_research",
+  "field_verification_required": true,
+  "destination": {
+    "country": "Japan",
+    "city": "Tokyo",
+    "district": "Daiba, Minato City",
+    "neighborhood": "Odaiba Marine Park"
+  },
+  "name": "Rainbow Bridge from Odaiba",
+  "short_description": "Frame Rainbow Bridge and the central Tokyo skyline across the bay from Odaiba's public waterfront.",
+  "scenery_types": ["waterfront", "bridge", "skyline", "night"],
+  "subject": {
+    "name": "Rainbow Bridge",
+    "coordinates": {
+      "latitude": 35.636808,
+      "longitude": 139.762576,
+      "precision": "bridge_center_approximate"
+    }
+  },
+  "shooting_area": {
+    "name": "Odaiba Marine Park waterfront promenade",
+    "coordinates": {
+      "latitude": 35.636511,
+      "longitude": 139.774174,
+      "precision": "reference_photo_coordinate_approximate_area",
+      "radius_meters": 45
+    },
+    "exact_pin_policy": "approximate_until_field_verified",
+    "standing_instruction": "Remain on the public waterfront promenade, keep paths and railings clear, and follow all temporary controls for fountain shows, events and waterfront operations.",
+    "verification_note": "The area uses the reference photo coordinate. The 2026 Tokyo Aqua Symphony has materially changed the waterfront scene, so an on-site check is essential."
+  },
+  "navigation": {
+    "simulated_start": {
+      "latitude": 35.62992,
+      "longitude": 139.77869,
+      "precision": "simulated_odaiba_kaihinkoen_station"
+    },
+    "route": [
+      { "latitude": 35.62992, "longitude": 139.77869 },
+      { "latitude": 35.6312, "longitude": 139.77782 },
+      { "latitude": 35.63323, "longitude": 139.77643 },
+      { "latitude": 35.63518, "longitude": 139.77508 },
+      { "latitude": 35.636511, "longitude": 139.774174 }
+    ],
+    "walking_distance_meters": 320,
+    "walking_time_minutes": 3,
+    "walking_time_status": "official_park_access_time_with_simulated_final_route"
+  },
+  "shot_guide": {
+    "camera_bearing_degrees": 270,
+    "camera_bearing_label": "west",
+    "camera_bearing_short_label": "W",
+    "bearing_tolerance_degrees": 18,
+    "bearing_method": "calculated from the reference photo coordinate toward the approximate bridge center",
+    "orientation": ["landscape", "portrait"],
+    "recommended_focal_length_full_frame_mm": {
+      "minimum": 24,
+      "maximum": 50,
+      "starting_point": 35
+    },
+    "phone_camera_suggestion": "Start with the main 1x camera for the full bridge and skyline. Use 2x only if the bridge still fits comfortably and image quality remains good.",
+    "composition_instruction": "Keep both bridge towers level, place the bridge across the middle third and leave foreground water for reflections or fountain light.",
+    "composition_short_instruction": "Level both bridge towers and place the span across the middle third.",
+    "expected_view": "Rainbow Bridge crossing Tokyo Bay with city lights and Tokyo Tower beyond.",
+    "composition_overlay": {
+      "shape": "bridge",
+      "top_percent": 27,
+      "left_percent": 8,
+      "width_percent": 84,
+      "height_percent": 36
+    },
+    "accuracy": "estimated_from_reference_metadata",
+    "field_checks_needed": [
+      "Confirm whether the 2026 fountain blocks or changes the historical composition.",
+      "Identify a non-obstructive public standing point during fountain shows.",
+      "Measure the final bearing and focal length.",
+      "Check wind, spray, event barriers and waterfront closures."
+    ]
+  },
+  "timing_and_light": {
+    "primary_recommendation": "Try approximately 15 to 45 minutes after sunset for a blue-to-dark sky, bridge lighting and water reflections. Illumination is not guaranteed.",
+    "short_label": "15-45 min after sunset",
+    "dynamic_time_rule": {
+      "event": "sunset",
+      "start_offset_minutes": 15,
+      "end_offset_minutes": 45
+    },
+    "alternate_recommendation": "A clear late afternoon can show bridge structure and bay detail before the lights become the main subject.",
+    "lighting_direction_note": "The camera faces west, putting sunset color in or near the frame depending on season.",
+    "subject_lighting_note": "Bridge, skyline and fountain lighting schedules vary. Tokyo Aqua Symphony currently lists shows through 9:00 PM, subject to weather and schedule changes.",
+    "accuracy": "photography_recommendation_not_field_verified"
+  },
+  "access": {
+    "address": "1 Chome Daiba, Minato City, Tokyo, Japan",
+    "nearest_station": "Odaiba-kaihinkoen Station",
+    "line": "Yurikamome",
+    "walking_time_minutes": 3,
+    "walking_time_destination": "Odaiba Marine Park",
+    "walking_time_status": "published_by_tokyo_odaiba",
+    "cost_note": "The public park listing does not show an admission charge. Special events may use separate controls or ticketing.",
+    "published_hours": "TokyoOdaiba.net lists Odaiba Marine Park as open 24/7 and year-round. Temporary event or operational closures can still apply.",
+    "accessibility": {
+      "summary": "The exact step-free route to the historical reference coordinate has not been verified after the fountain development.",
+      "route_verified": false,
+      "note": "Use current station, park and event accessibility information."
+    }
+  },
+  "conditions": {
+    "crowd_level": "high",
+    "crowd_note": "The waterfront hosts fountain shows and major events. Density varies significantly by show time and event schedule.",
+    "safety_level": "not_assessed",
+    "safety_note": "Stay behind barriers, keep clear of wet surfaces and spray, and protect equipment from wind and salt water."
+  },
+  "rules_and_respect": {
+    "site_type": "public waterfront park and event area",
+    "personal_photography_status": "ordinary_personal_park_photography_context_only",
+    "tripod_status": "unverified_contact_listed_for_filming_inquiries",
+    "commercial_photography_status": "filming_contact_published_permission_not_verified",
+    "guidance": [
+      "Waterfront operations, emergency access and event controls take priority.",
+      "Keep paths, railings and fountain viewing areas clear.",
+      "Follow staff instructions and weather-related closures.",
+      "Do not photograph identifiable visitors as the main subject without permission.",
+      "Do not assume tripod permission, especially during shows and busy periods.",
+      "Protect the waterfront from litter and keep equipment within barriers."
+    ],
+    "editorial_rule": "ViewRoam must not claim that tripod or commercial use is permitted; TokyoOdaiba.net publishes a filming-inquiry contact."
+  },
+  "live_conditions": [
+    {
+      "severity": "high",
+      "title": "The waterfront changed in March 2026",
+      "message": "Tokyo Aqua Symphony opened at Odaiba Marine Park on March 28, 2026. The older target photograph does not show the fountain, and the current composition may be substantially different.",
+      "valid_until": null,
+      "source_id": "tokyo-aqua-symphony"
+    }
+  ],
+  "seasonal_notes": [
+    {
+      "season": "spring",
+      "note": "Cherry blossoms and waterfront events can add foreground interest and crowding."
+    },
+    {
+      "season": "summer",
+      "note": "Expect later sunset, humidity, marine haze and large outdoor events."
+    },
+    {
+      "season": "autumn",
+      "note": "Clearer evenings can improve bridge and skyline detail."
+    },
+    {
+      "season": "winter",
+      "note": "Earlier blue hour and clearer air often suit skyline work, but the waterfront can be cold and windy."
+    }
+  ],
+  "reference_photo": {
+    "title": "Rainbow Bridge by night seen from Odaiba side.jpg",
+    "creator": "Syced",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_by_night_seen_from_Odaiba_side.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rainbow_Bridge_by_night_seen_from_Odaiba_side.jpg",
+    "local_path": "/assets/rainbow-bridge-odaiba-night.jpg",
+    "alt_text": "Rainbow Bridge illuminated at night across Tokyo Bay from Odaiba",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "required_attribution": "Rainbow Bridge by night seen from Odaiba side by Syced, CC0 1.0",
+    "captured_at": "date_metadata_unreliable",
+    "metadata_focal_length_mm": null,
+    "usage_note": "A CC0 stitched panorama with a recorded camera coordinate. It predates the 2026 Tokyo Aqua Symphony and is not a guaranteed current view."
+  },
+  "quality": {
+    "editorial_confidence": "medium",
+    "coordinate_confidence": "high_for_reference_metadata",
+    "bearing_confidence": "medium",
+    "access_confidence": "high_for_park_general_low_for_exact_area",
+    "rules_confidence": "medium_low",
+    "current_view_confidence": "low_after_2026_fountain_change",
+    "last_researched_at": "2026-07-22",
+    "field_verified_at": null,
+    "reviewer": null
+  },
+  "sources": [
+    {
+      "id": "tokyo-odaiba-marine-park",
+      "title": "Odaiba Marine Park - TokyoOdaiba.net",
+      "url": "https://www.tokyo-odaiba.net/en/genre/odaiba_marine_park/",
+      "supports": [
+        "public park identity",
+        "Rainbow Bridge view",
+        "24/7 listing",
+        "station walking times",
+        "filming inquiry contact"
+      ]
+    },
+    {
+      "id": "go-tokyo-odaiba-marine-park",
+      "title": "Odaiba Marine Park - GO TOKYO",
+      "url": "https://www.gotokyo.org/en/spot/39/index.html",
+      "supports": [
+        "official travel listing",
+        "Rainbow Bridge viewpoint context"
+      ]
+    },
+    {
+      "id": "tokyo-aqua-symphony",
+      "title": "Tokyo Aqua Symphony - TokyoOdaiba.net",
+      "url": "https://www.tokyo-odaiba.net/en/genre/tokyo_aqua_symphony/",
+      "supports": [
+        "March 28 2026 opening",
+        "fountain dimensions",
+        "current show times",
+        "weather caveat"
+      ]
+    },
+    {
+      "id": "commons-rainbow-bridge-photo",
+      "title": "Rainbow Bridge by night seen from Odaiba side - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_by_night_seen_from_Odaiba_side.jpg",
+      "supports": [
+        "CC0 reference photograph",
+        "creator",
+        "camera coordinate",
+        "stitched-panorama note"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ViewRoam">
+  <rect width="64" height="64" rx="18" fill="#f2562d"/>
+  <path d="M42.8 18.3 35.2 36l-17.7 7.7L25 26z" fill="#fffdf9" stroke="#fffdf9" stroke-linejoin="round"/>
+  <circle cx="30.2" cy="31" r="4.2" fill="#f2562d"/>
+</svg>
